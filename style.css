@@ -5,6 +5,8 @@
 body {
     font-family: "Helvetica", sans-serif;
     background: black;
+    margin:0;
+    padding:0;
 }
 
 /* Navigation */
@@ -74,7 +76,7 @@ ul#nav .active {
     color: white;
     margin-top: 24px;
     margin-left: 42.27px;
-    margin-bottom: 25px;  
+    margin-bottom: 25px;
 }
 
 /* Animation */
@@ -191,9 +193,7 @@ header {
     color: white    ;
     font-size: 21px;
     text-decoration: none;
-
     padding: 8px 43px;
-
     background: black;
     border-radius: 10px;
     border: 2px solid #ffffff; 
@@ -218,8 +218,8 @@ header {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    grid-template-columns: auto auto;
 }
 
 .grid1 {
@@ -227,7 +227,12 @@ header {
     grid-template-columns: auto auto auto;
 }
 
-.thumb {
+.grid2 {
+    display: flex;
+    grid-template-columns: auto;
+}
+
+.thumb img {
     background: rgba(196, 196, 196, 0.1);
     border-radius: 37px;
     margin-left: 42.27px;
@@ -235,7 +240,7 @@ header {
     margin-bottom: 52px;
 }
 
-.thumb1 {
+.thumb1 img {
     background: rgba(196, 196, 196, 0.1);
     border-radius: 37px;
     margin-left: 42.27px;
@@ -260,6 +265,30 @@ header {
 }
 
 .box2 {
+    padding: 111px 48.5px;
+    background: rgba(196, 196, 196, 0.1);
+    border-radius: 37px;
+    margin-left: 42.27px;
+    margin-bottom: 52px;
+}
+
+.box3 {
+    padding: 111px 68px;
+    background: rgba(196, 196, 196, 0.1);
+    border-radius: 37px;
+    margin-left: 42.27px;
+    margin-bottom: 52px;
+}
+
+.box4 {
+    padding: 111px 90.5px;
+    background: rgba(196, 196, 196, 0.1);
+    border-radius: 37px;
+    margin-left: 42.27px;
+    margin-bottom: 52px;
+}
+
+.box5 {
     padding: 111px 28.5px;
     background: rgba(196, 196, 196, 0.1);
     border-radius: 37px;
@@ -297,16 +326,52 @@ header {
     color: white;
 }
 
+.box3 a{
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 148.99%;
+    color: white;
+}
+
+.box4 a{
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 148.99%;
+    color: white;
+}
+
+.box5 a{
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 148.99%;
+    color: white;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(196, 196, 196, 0.1);;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   font-family: Helvetica;
+   font-style: normal;
+   font-size: 16px;
+   padding: 25.98px;    
+}
+
 /* Scroll Bar */
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-/* Track */
-::-webkit-scrollbar-track {
-    background: #000000; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: white; 
+    display: none;
   }
