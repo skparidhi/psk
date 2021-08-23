@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    margin: 0;
 }
 
 body {
@@ -46,7 +45,7 @@ ul#nav .active {
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 15px;
     color: #686464;
     
@@ -64,6 +63,7 @@ header {
     display: flex;
     align-items: center;
     justify-content:inherit;
+    margin-bottom: 100px;
 }
 
 .hero-container h2 {
@@ -76,6 +76,30 @@ header {
     margin-top: 50px;
     margin-left: 42.27px;
     margin-bottom: 25px;
+}
+
+.hero-container h3 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 40px;
+    color: white;
+    margin-top: 24px;
+    margin-left: 42.27px;
+    margin-bottom: 25px;
+}
+
+.hero-container h4 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    color: white;
+    margin-top: 48px;
+    margin-left: 42.27px;
+    margin-bottom: 4px;
 }
 
 .hero-container p {
@@ -110,6 +134,38 @@ header {
 
 .hero-image img {
     justify-items: right;
+}
+
+.button a {
+    align-items: center;
+    justify-content: space-between;
+    color: white    ;
+    font-size: 21px;
+    text-decoration: none;
+
+    padding: 19px 43px;
+
+    background: black;
+    border-radius: 10px;
+    border: 2px solid #ffffff; 
+    margin-left: 42.27px;
+    margin-top: 100px;
+}
+
+.button a:hover{
+    align-items: center;
+    justify-content: space-between;
+    color: black   ;
+    font-size: 21px;
+    text-decoration: none;
+
+    padding: 19px 43px;
+
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid #ffffff; 
+    margin-left: 42.27px;
+    margin-top: 100px;
 }
 
 /* Scroll Bar */
