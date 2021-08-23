@@ -55,6 +55,55 @@ ul#nav .active {
     color: white;
 }
 
+/* Typewriter Effect */
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);  
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 40px;
+    color: white;
+    margin-top: 24px;
+    margin-left: 42.27px;
+    margin-bottom: 25px;  
+}
+
+/* Animation */
+.anim-typewriter-1 {
+  animation: typewriter1 1s steps(15) 1s 1 normal both,
+             blinkTextCursor1 500ms steps(15) infinite normal;
+}
+@keyframes typewriter1{
+  from{width: 0;}
+  to{width: 192px;}
+}
+@keyframes blinkTextCursor1{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+.anim-typewriter-2 {
+    animation: typewriter2 1s steps(15) 1s 1 normal both,
+               blinkTextCursor2 500ms steps(15) infinite normal;
+  }
+  @keyframes typewriter2{
+    from{width: 0;}
+    to{width: 178px;}
+  }
+  @keyframes blinkTextCursor2{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
 .head-container {
     display: flex;
 }
@@ -143,7 +192,7 @@ header {
     font-size: 21px;
     text-decoration: none;
 
-    padding: 19px 43px;
+    padding: 8px 43px;
 
     background: black;
     border-radius: 10px;
@@ -159,13 +208,93 @@ header {
     font-size: 21px;
     text-decoration: none;
 
-    padding: 19px 43px;
+    padding: 8px 43px;
 
     background: rgb(255, 255, 255);
     border-radius: 10px;
     border: 2px solid #ffffff; 
     margin-left: 42.27px;
     margin-top: 100px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.thumb {
+    background: rgba(196, 196, 196, 0.1);
+    border-radius: 37px;
+    margin-left: 42.27px;
+    padding: 89.93px 22.59px;
+    margin-bottom: 52px;
+}
+
+.thumb1 {
+    background: rgba(196, 196, 196, 0.1);
+    border-radius: 37px;
+    margin-left: 42.27px;
+    padding: 60.67px 60.67px;
+    margin-bottom: 52px;
+}
+
+.box {
+    padding: 111px 61px;
+    background: rgba(196, 196, 196, 0.1);
+    border-radius: 37px;
+    margin-left: 42.27px;
+    margin-bottom: 52px;
+}
+
+.box1 {
+    padding: 111px 48.5px;
+    background: rgba(196, 196, 196, 0.1);
+    border-radius: 37px;
+    margin-left: 42.27px;
+    margin-bottom: 52px;
+}
+
+.box2 {
+    padding: 111px 28.5px;
+    background: rgba(196, 196, 196, 0.1);
+    border-radius: 37px;
+    margin-left: 42.27px;
+    margin-bottom: 52px;
+}
+
+.box a{
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 148.99%;
+    color: white;
+}
+
+.box1 a{
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 148.99%;
+    color: white;
+}
+
+.box2 a{
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 148.99%;
+    color: white;
 }
 
 /* Scroll Bar */
