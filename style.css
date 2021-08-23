@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Helvetica", sans-serif;
+    background: black;
+}
+
+/* Navigation */
+.nav-container {
+    height: 189.5px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    align-items: flex-start;
+}
+
+nav ul {
+    display: flex;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 60px;
+}
+
+ul#nav .active {
+    color: white;
+}
+
+.nav-items li a {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 15px;
+    color: #686464;
+    
+}
+
+.nav-items li a:hover {
+    color: white;
+}
+
+.head-container {
+    display: flex;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content:inherit;
+}
+
+.hero-container h2 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 52px;
+    color: #6F6F6F;
+    margin-top: 50px;
+    margin-left: 42.27px;
+    margin-bottom: 25px;
+}
+
+.hero-container p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 148.99%;
+    color: #9F9F9F;
+    margin-left: 42.27px;
+    width: 768px;
+}
+
+.hero-container h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 52px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    margin-left: 42.27px;
+}
+
+.hyper {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.hero-image img {
+    justify-items: right;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000000; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white; 
+  }
