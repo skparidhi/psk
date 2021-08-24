@@ -389,7 +389,7 @@ header {
   }
 
 .footer {
-   position: absolute;
+   bottom: 0;
    width: 100%;
    background-color: rgba(196, 196, 196, 0.1);;
    color: white;
