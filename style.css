@@ -14,7 +14,17 @@ Domain from Godaddy
     --nav-inactive-color: #686464;
     --nav-active-color: white;
     --h2-color: #6F6F6F;
+    --layout-1: 1fr;
+    --layout-2: 1fr 1fr;
+    --layout-3: 1fr 1fr 1fr;
 
+}
+
+@media screen and (max-width: 760px) {
+    :root{
+        --layout-2: 1fr;
+        --layout-3: 1fr;
+    }
 }
 
 /*Fonts*/
@@ -258,19 +268,19 @@ header {
 
 /*Layout*/
 
-.grid {
-    display: flex;
-    grid-template-columns: auto auto;
-}
-
 .grid1 {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    grid-template-columns: var(--layout-1);
 }
 
 .grid2 {
-    display: flex;
-    grid-template-columns: auto;
+    display: grid;
+    grid-template-columns: var(--layout-2);
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: var(--layout-3);
 }
 
 .thumb img {
@@ -284,8 +294,8 @@ header {
 .thumb1 img {
     background: rgba(196, 196, 196, 0.1);
     border-radius: 37px;
-    margin-left: 42.27px;
     padding: 60.67px 60.67px;
+    margin-left: 42.27px;
     margin-bottom: 52px;
 }
 
