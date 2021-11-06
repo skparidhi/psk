@@ -283,18 +283,18 @@ header {
     grid-template-columns: var(--layout-3);
 }
 
-.thumb img {
+.img1{
+    padding: 89.83px 22.59px;
     background: rgba(196, 196, 196, 0.1);
     border-radius: 37px;
     margin-left: 42.27px;
-    padding: 89.93px 22.59px;
     margin-bottom: 52px;
 }
 
-.thumb1 img {
+.img2{
+    padding: 60.67px 60.67px;
     background: rgba(196, 196, 196, 0.1);
     border-radius: 37px;
-    padding: 60.67px 60.67px;
     margin-left: 42.27px;
     margin-bottom: 52px;
 }
