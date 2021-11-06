@@ -12,7 +12,7 @@ Domain from Godaddy
 :root{
     --bg-color: #000000;
     --nav-inactive-color: #686464;
-    --nav-active-color: white;
+    --nav-active-color: #FFDD00;
     --h2-color: #6F6F6F;
     --layout-1: 1fr;
     --layout-2: 1fr 1fr;
@@ -230,6 +230,14 @@ header {
     color: #FFFFFF;
 }
 
+.hyper:hover {
+    text-decoration: none;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    color: #FFDD00  ;
+}
+
 .hero-image img {
     justify-items: right;
 }
@@ -274,12 +282,12 @@ header {
 }
 
 .grid2 {
-    display: grid;
+    display: flex;
     grid-template-columns: var(--layout-2);
 }
 
 .grid3 {
-    display: grid;
+    display: flex;
     grid-template-columns: var(--layout-3);
 }
 
