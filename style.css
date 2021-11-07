@@ -321,7 +321,7 @@ header {
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    color: #a37500  ;
+    color: #4b0081  ;
 }
 
 .hero-image img {
@@ -553,3 +553,13 @@ header {
 ::-webkit-scrollbar {
     display: none;
   }
+
+.social {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    align-items: center;
+}
+
+.social a {
+    margin-right: 0.5em;
+}
