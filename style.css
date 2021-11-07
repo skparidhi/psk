@@ -10,13 +10,17 @@ Domain from Godaddy
 
 /*Variables*/
 :root{
-    --bg-color: #000000;
-    --nav-inactive-color: #686464;
-    --nav-active-color: #FFDD00;
-    --h2-color: #6F6F6F;
+    --bg-color: #84CEEB;
+    --nav-inactive-color: #6c00b9;
+    --nav-active-color: #000000;
+    --h2-color: #000000;
     --layout-1: 1fr;
     --layout-2: 1fr 1fr;
     --layout-3: 1fr 1fr 1fr;
+    --h1-color: #000000;
+    --h2-color: #000000;
+    --h3-color: #000000;
+    --h4-color: #000000;
 
 }
 
@@ -26,6 +30,8 @@ Domain from Godaddy
         --layout-3: 1fr;
     }
 }
+
+
 
 /*Fonts*/
 @font-face { font-family: Helvetica; src: url('fonts/Helvetica/Helvetica.ttf'); }
@@ -48,10 +54,14 @@ Domain from Godaddy
 
 body {
     font-family: "Helvetica", sans-serif;
-    background: var(--bg-color);
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
     margin:0;
     padding:0;
+    text-align:center;
 }
+
 
 /* Navigation */
 .nav-container {
@@ -59,7 +69,7 @@ body {
 }
 
 .wrapper {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -98,8 +108,9 @@ ul#nav .active {
 }
 
 .logo {
-    align-items: flex-start;
     color: white;
+    margin-left: 2em;
+    text-decoration: none;
 }
 
 /* Typewriter Effect */
@@ -108,7 +119,7 @@ ul#nav .active {
     top: 50%;  
     width: 24em;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
+    border-right: 2px solid rgba(0, 0, 0, 0.75);
     font-size: 180%;
     text-align: center;
     white-space: nowrap;
@@ -118,9 +129,8 @@ ul#nav .active {
     font-style: normal;
     font-weight: bold;
     line-height: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 24px;
-    margin-left: 42.27px;
     margin-bottom: 25px;
 }
 
@@ -134,7 +144,7 @@ ul#nav .active {
   to{width: 192px;}
 }
 @keyframes blinkTextCursor1{
-  from{border-right-color: rgba(255,255,255,.75);}
+  from{border-right-color: rgba(0, 0, 0, 0.75);}
   to{border-right-color: transparent;}
 }
 
@@ -147,7 +157,7 @@ ul#nav .active {
     to{width: 178px;}
   }
   @keyframes blinkTextCursor2{
-    from{border-right-color: rgba(255,255,255,.75);}
+    from{border-right-color: rgba(0, 0, 0, 0.75);}
     to{border-right-color: transparent;}
   }
 }
@@ -156,13 +166,15 @@ ul#nav .active {
 
 .head-container {
     display: flex;
+    text-align:center;
 }
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content:inherit;
     margin-bottom: 100px;
+}
+
+.hero-container{
+    align-content: center;
 }
 
 .hero-container h2 {
@@ -171,10 +183,10 @@ header {
     font-weight: bold;
     font-size: 45px;
     line-height: 52px;
-    color: #6F6F6F;
+    color: var(--h2-color);
     margin-top: 50px;
-    margin-left: 42.27px;
     margin-bottom: 25px;
+    
 }
 
 .hero-container h3 {
@@ -183,9 +195,8 @@ header {
     font-weight: bold;
     font-size: 35px;
     line-height: 40px;
-    color: white;
+    color: var(--h3-color);
     margin-top: 24px;
-    margin-left: 42.27px;
     margin-bottom: 25px;
 }
 
@@ -195,10 +206,24 @@ header {
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-top: 48px;
     margin-left: 42.27px;
     margin-bottom: 4px;
+    color: black;
+    margin-bottom: 25px;
+    align-content:center;
+    text-decoration: none;
+
+}
+
+.logo a{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-decoration: wavy;
 }
 
 .hero-container p {
@@ -207,9 +232,33 @@ header {
     font-weight: normal;
     font-size: 21px;
     line-height: 148.99%;
-    color: #9F9F9F;
-    margin-left: 42.27px;
-    width: 768px;
+    color: #000000;
+    margin-bottom: 25px;
+    align-content:center;
+
+}
+
+@keyframes rainbow-text-simple-animation {
+    0% {
+        background-size: 100%;
+    }
+    80% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 650%;
+    }
+}
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
 }
 
 .hero-container h1 {
@@ -218,17 +267,54 @@ header {
     font-weight: bold;
     font-size: 45px;
     line-height: 52px;
-    color: #FFFFFF;
+    color: #000000;
     margin-bottom: 25px;
-    margin-left: 42.27px;
+    align-content:center;
+        /* Fallback: Set a background color. */
+        background-color: #CA4246;
+        
+        /* Create the gradient. */
+         background-image: linear-gradient(
+              45deg,
+              #CA4246 16.666%, 
+              #E16541 16.666%, 
+              #E16541 33.333%, 
+              #F18F43 33.333%, 
+              #F18F43 50%, 
+              #8B9862 50%, 
+              #8B9862 66.666%, 
+              #476098 66.666%, 
+              #476098 83.333%, 
+              #A7489B 83.333%);
+        
+        /* Set the background size and repeat properties. */
+        background-size: 100%;
+        background-repeat: repeat;
+      
+        /* Use the text as a mask for the background. */
+        /* This will show the gradient as a text color rather than element bg. */
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        
+        /* Animate the text when loading the element. */
+          /* This animates it on page load and when hovering out. */
+          animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+      
+      }
+      
 }
+
+.hero-container h1:hover{
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
 
 .hyper {
     text-decoration: none;
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .hyper:hover {
@@ -236,7 +322,7 @@ header {
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    color: #FFDD00  ;
+    color: #a37500  ;
 }
 
 .hero-image img {
@@ -245,33 +331,35 @@ header {
 
 /*Buttons*/
 
+
+
 .button a {
     align-items: center;
     justify-content: space-between;
-    color: white    ;
+    color: rgb(0, 0, 0)    ;
     font-size: 21px;
     text-decoration: none;
-    padding: 8px 43px;
-    background: black;
-    border-radius: 10px;
-    border: 2px solid #ffffff; 
-    margin-left: 42.27px;
+    padding: 20px 43px;
+    border-radius: 20px;
+    background: #8EC5FC;
+    box-shadow:  20px 20px 60px #79a7d6,
+             -20px -20px 60px #a3e3ff;
     margin-top: 100px;
+    margin-left: 1em;
+    
 }
 
 .button a:hover{
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-evenly;
     color: black   ;
     font-size: 21px;
     text-decoration: none;
-
-    padding: 8px 43px;
-
-    background: rgb(255, 255, 255);
-    border-radius: 10px;
-    border: 2px solid #ffffff; 
-    margin-left: 42.27px;
+    padding: 20px 43px;
+    border-radius: 20px;
+    background: #8EC5FC;
+    box-shadow: inset 20px 20px 60px #79a7d6,
+            inset -20px -20px 60px #a3e3ff;
     margin-top: 100px;
 }
 
@@ -456,7 +544,7 @@ header {
    bottom: 0;
    width: 100%;
    background-color: rgba(196, 196, 196, 0.1);;
-   color: white;
+   color: rgb(114, 114, 114);
    text-align: center;
    text-decoration: none;
    font-family: Helvetica;
