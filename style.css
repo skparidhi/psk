@@ -142,7 +142,7 @@ ul#nav .active {
 }
 @keyframes typewriter1{
   from{width: 0;}
-  to{width: 192px;}
+  to{width: 240px;}
 }
 @keyframes blinkTextCursor1{
   from{border-right-color: rgba(0, 0, 0, 0.75);}
@@ -155,7 +155,7 @@ ul#nav .active {
   }
   @keyframes typewriter2{
     from{width: 0;}
-    to{width: 178px;}
+    to{width: 220px;}
   }
   @keyframes blinkTextCursor2{
     from{border-right-color: rgba(0, 0, 0, 0.75);}
@@ -345,7 +345,6 @@ header {
     box-shadow:  20px 20px 60px #79a7d6,
              -20px -20px 60px #a3e3ff;
     margin-top: 100px;
-    margin-left: 1em;
     
 }
 
@@ -543,7 +542,6 @@ header {
 .footer {
    bottom: 0;
    width: 100%;
-   background-color: rgba(94, 0, 122, 0.1);;
    text-align: center;
    text-decoration: none;
    font-family: Helvetica;
