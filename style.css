@@ -18,7 +18,7 @@ Domain from Godaddy
     --layout-2: 1fr 1fr;
     --layout-3: 1fr 1fr 1fr;
     --h1-color: #000000;
-    --h2-color: #000000;
+    --h2-color: #710095;
     --h3-color: #000000;
     --h4-color: #000000;
 
@@ -77,7 +77,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(94, 0, 122, 0.1);;
 }
 
 nav ul {
@@ -271,18 +270,18 @@ header {
     margin-bottom: 25px;
     align-content:center;
         /* Fallback: Set a background color. */
-        background-color: #CA4246;
+        background-color: #710095;
         
         /* Create the gradient. */
          background-image: linear-gradient(
               45deg,
-              #CA4246 16.666%, 
-              #E16541 16.666%, 
-              #E16541 33.333%, 
-              #F18F43 33.333%, 
-              #F18F43 50%, 
-              #8B9862 50%, 
-              #8B9862 66.666%, 
+              #464866 16.666%, 
+              #84CEEB 16.666%, 
+              #2A1B3D 33.333%, 
+              #44318D 33.333%, 
+              #080F5B 50%, 
+              #25274D 50%, 
+              #25274D 66.666%, 
               #476098 66.666%, 
               #476098 83.333%, 
               #A7489B 83.333%);
@@ -345,6 +344,7 @@ header {
     box-shadow:  20px 20px 60px #79a7d6,
              -20px -20px 60px #a3e3ff;
     margin-top: 100px;
+    margin-right: 1.5em;
     
 }
 
@@ -370,7 +370,6 @@ header {
 }
 
 .grid2 {
-    display: flex;
     grid-template-columns: var(--layout-2);
 }
 
