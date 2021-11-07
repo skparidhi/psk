@@ -11,14 +11,14 @@ Domain from Godaddy
 /*Variables*/
 :root{
     --bg-color: #84CEEB;
-    --nav-inactive-color: #6c00b9;
+    --nav-inactive-color: #999999;
     --nav-active-color: #000000;
     --h2-color: #000000;
     --layout-1: 1fr;
     --layout-2: 1fr 1fr;
     --layout-3: 1fr 1fr 1fr;
     --h1-color: #000000;
-    --h2-color: #710095;
+    --h2-color: #000000;
     --h3-color: #000000;
     --h4-color: #000000;
 
