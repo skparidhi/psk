@@ -267,44 +267,10 @@ header {
     line-height: 52px;
     color: #000000;
     margin-bottom: 25px;
-    align-content:center;
-        /* Fallback: Set a background color. */
-        background-color: #710095;
-        
-        /* Create the gradient. */
-         background-image: linear-gradient(
-              45deg,
-              #464866 16.666%, 
-              #84CEEB 16.666%, 
-              #2A1B3D 33.333%, 
-              #44318D 33.333%, 
-              #080F5B 50%, 
-              #25274D 50%, 
-              #25274D 66.666%, 
-              #476098 66.666%, 
-              #476098 83.333%, 
-              #A7489B 83.333%);
-        
-        /* Set the background size and repeat properties. */
-        background-size: 100%;
-        background-repeat: repeat;
-      
-        /* Use the text as a mask for the background. */
-        /* This will show the gradient as a text color rather than element bg. */
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent; 
-        
-        /* Animate the text when loading the element. */
-          /* This animates it on page load and when hovering out. */
-          animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
-      
-      }
-      
+    align-content:center;      
 }
 
-.hero-container h1:hover{
-    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
-}
+
 
 
 .hyper {
@@ -329,7 +295,9 @@ header {
 
 /*Buttons*/
 
-
+.button {
+    display:inline-flexbox;
+}
 
 .button a {
     align-items: center;
