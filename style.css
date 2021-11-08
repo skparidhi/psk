@@ -80,8 +80,6 @@ body {
 .wrapper {
     width: 80%;
     margin: 0 auto;
-    border-radius: 1em;
-    border-color: yellow;
 }
 
 nav {
