@@ -7,3 +7,9 @@ link.addEventListener("click", (e) => {
     window.location = link.href;
   }, 900);
 });
+
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-6HTSNEGYV7');
