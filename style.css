@@ -383,7 +383,7 @@ hr {
   /* Create four equal columns that floats next to each other */
   .column {
     float: left;
-    width: auto;
+    width: 50%;
   }
   
   /* Clear floats after rows */ 
