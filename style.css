@@ -133,54 +133,53 @@ hr {
     border-radius: 20px;
     
   }
-
-/* Typewriter Effect */
-.line-1{
-    position: relative;
-    top: 50%;  
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(0, 0, 0, 0.75);
-    font-size: 140%;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);  
-    font-family: Helvetica;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 1em;
-    margin-top: 2em;
-    color: rgb(0, 0, 0);
+/* 
+.line-1 {
+  position: relative;
+  top: 50%;  
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(0, 0, 0, 0.75);
+  font-size: 140%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);  
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 1em;
+  margin-top: 2em;
+  color: rgb(0, 0, 0);
 }
 
-/* Animation */
+Animation
 .anim-typewriter-1 {
-  animation: typewriter1 1s steps(15) 1s 1 normal both,
-             blinkTextCursor1 500ms steps(15) infinite normal;
+animation: typewriter1 1s steps(15) 1s 1 normal both,
+           blinkTextCursor1 500ms steps(15) infinite normal;
 }
 @keyframes typewriter1{
-  from{width: 0;}
-  to{width: 6.8em;}
+from{width: 0;}
+to{width: 6.8em;}
 }
 @keyframes blinkTextCursor1{
-  from{border-right-color: rgba(0, 0, 0, 0.75);}
-  to{border-right-color: transparent;}
+from{border-right-color: rgba(0, 0, 0, 0.75);}
+to{border-right-color: transparent;}
 }
 
 .anim-typewriter-2 {
-    animation: typewriter2 1s steps(15) 1s 1 normal both,
-               blinkTextCursor2 500ms steps(15) infinite normal;
-  }
-  @keyframes typewriter2{
-    from{width: 0;}
-    to{width: 6.2em;}
-  }
-  @keyframes blinkTextCursor2{
-    from{border-right-color: rgba(0, 0, 0, 0.75);}
-    to{border-right-color: transparent;}
-  }
+  animation: typewriter2 1s steps(15) 1s 1 normal both,
+             blinkTextCursor2 500ms steps(15) infinite normal;
 }
+@keyframes typewriter2{
+  from{width: 0;}
+  to{width: 6.2em;}
+}
+@keyframes blinkTextCursor2{
+  from{border-right-color: rgba(0, 0, 0, 0.75);}
+  to{border-right-color: transparent;}
+}
+} */
 
 /*Header*/
 
