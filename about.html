@@ -5,21 +5,27 @@
         <link rel="stylesheet" href="style.css" />
         <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="skparidhi" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FFDCBC" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-6HTSNEGYV7"></script>
+		<script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6HTSNEGYV7');
+        </script>
 
         <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	    <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
     </head>
-    <div class="nav-container">
+    <div class="nav-container1">
         <header class="cd-morph-dropdown">
 		<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
 		
-		<nav class="main-nav">
+		<nav id="nav1" class="main-nav">
 			<ul>
 				<li data-content="Home">
 					<a href="https://skparidhi.xyz">Home</a>
 				</li>
 
-                <li data-content="about">
+                <li class="active" data-content="about">
 					<a href="https://skparidhi.xyz/about">About</a>
 				</li>
 

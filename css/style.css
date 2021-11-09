@@ -3,6 +3,17 @@
 Primary style
 
 -------------------------------- */
+/*Fonts*/
+@font-face { font-family: Helvetica; src: url('fonts/Helvetica/Helvetica.ttf'); }
+
+@font-face { font-family: Helvetica; font-weight:bold; src: url('fonts/Helvetica/Helvetica-Bold.ttf'); }
+
+@font-face { font-family: Helvetica; font-style: oblique url('fonts/Helvetica/Helvetica-Oblique.ttf'); }
+
+@font-face { font-family: Helvetica; font-weight:bold; font-style: oblique url('fonts/Helvetica/Helvetica-BoldOblique.ttf'); }
+
+@font-face { font-family: Helvetica; font-weight:lighter url('fonts/Helvetica/helvetica-light-587ebe5a59211.ttf'); }
+
 *, *::after, *::before {
   box-sizing: border-box;
 }
@@ -13,13 +24,15 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: bold;
   color: #1A1A1A;
   background-color: #FFFFFF;
 }
 
 a {
-  color: #DB6356;
+  color: #850d00;
   text-decoration: none;
 }
 
@@ -219,6 +232,11 @@ a {
   .cd-morph-dropdown .main-nav {
     display: inline-block;
   }
+
+ul#nav1 .active {
+    color:black;
+}
+
   .cd-morph-dropdown .main-nav > ul > li {
     display: inline-block;
     float: left;
@@ -228,7 +246,7 @@ a {
     padding: 0 1.8em;
     height: 70px;
     line-height: 70px;
-    color: #000000;
+    color: #FBAB7E;
     font-size: 1.8rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
