@@ -246,7 +246,7 @@ ul#nav1 .active {
     padding: 0 1.8em;
     height: 70px;
     line-height: 70px;
-    color: #FBAB7E;
+    color: #4d0000;
     font-size: 1.8rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -456,6 +456,15 @@ ul#nav1 .active {
     transition: transform .3s, opacity .3s;
     transition: transform .3s, opacity .3s, -webkit-transform .3s;
   }
+}
+
+.main h3 {
+  margin-top: .5em;
+  font-size: 1.5em;
+}
+
+.main p {
+  margin-top: 0.8em;
 }
 
 /* -------------------------------- 
