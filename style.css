@@ -129,14 +129,7 @@ hr {
     border-style: inset;
     border-width: 1px;
   } 
-
-  .card  {
-    height: 15em;
-    width: 25em;
-    border-radius: 1em;
-    border-radius: 20px;
-    
-  }
+  
 /* 
 .line-1 {
   position: relative;
