@@ -129,7 +129,7 @@ hr {
     border-style: inset;
     border-width: 1px;
   } 
-  
+
 /* 
 .line-1 {
   position: relative;
@@ -350,9 +350,7 @@ to{border-right-color: transparent;}
     background: #FBAB7E;
     box-shadow:  20px 20px 60px #d5916b,
              -20px -20px 60px #ffc591;
-    margin-right: .5em;
-    font-weight:lighter;
-    
+    margin-right: .5em;    
 }
 
 .button a:hover{
