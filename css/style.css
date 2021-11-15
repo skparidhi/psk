@@ -461,12 +461,13 @@ ul#nav1 .active {
 .main h3 {
   margin-top: .5em;
   font-size: 1.1em;
-  color: #e29b00;
+  color: #531E00;
 }
 
 .main p {
   margin-top: 0.8em;
-  color: #e29b00;
+  font-size: 0.7em;
+  color: #531E00;
   text-shadow: #DB6356;
 }
 
