@@ -459,8 +459,9 @@ ul#nav1 .active {
 
 .main h3 {
   margin-top: .5em;
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: #531E00;
+  font-weight: bold;
 }
 
 .main p {
